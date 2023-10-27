@@ -11,7 +11,39 @@
 		D3F844D72AEB4318005090ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F844D62AEB4318005090ED /* ContentView.swift */; };
 		D3F844D92AEB4319005090ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F844D82AEB4319005090ED /* Assets.xcassets */; };
 		D3F844DC2AEB4319005090ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F844DB2AEB4319005090ED /* Preview Assets.xcassets */; };
+		D3F844E32AEB45CA005090ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F844E22AEB45CA005090ED /* LaunchScreen.storyboard */; };
+		D3F844E62AEB5185005090ED /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F844E52AEB5185005090ED /* CardView.swift */; };
+		D3F844EC2AEB5C16005090ED /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F844EB2AEB5C16005090ED /* CardModel.swift */; };
+		D3F844EF2AEB5CE6005090ED /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F844EE2AEB5CE6005090ED /* CardData.swift */; };
+		D3F844F12AEB6033005090ED /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D3F844F02AEB6033005090ED /* sound-chime.mp3 */; };
+		D3F844F32AEB6051005090ED /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F844F22AEB6051005090ED /* PlaySound.swift */; };
+		D3F844F92AEB6509005090ED /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F844F82AEB6509005090ED /* Stickers.xcassets */; };
+		D3F844FD2AEB6509005090ED /* stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D3F844F62AEB6508005090ED /* stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3F844FB2AEB6509005090ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3F844C92AEB4318005090ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3F844F52AEB6508005090ED;
+			remoteInfo = stickers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3F845012AEB6509005090ED /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D3F844FD2AEB6509005090ED /* stickers.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D3F844D12AEB4318005090ED /* Learn By Doing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn By Doing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +51,16 @@
 		D3F844D62AEB4318005090ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3F844D82AEB4319005090ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3F844DB2AEB4319005090ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3F844E22AEB45CA005090ED /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3F844E42AEB4924005090ED /* Learn-By-Doing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Learn-By-Doing-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D3F844E52AEB5185005090ED /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D3F844EB2AEB5C16005090ED /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		D3F844EE2AEB5CE6005090ED /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		D3F844F02AEB6033005090ED /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
+		D3F844F22AEB6051005090ED /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		D3F844F62AEB6508005090ED /* stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F844F82AEB6509005090ED /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		D3F844FA2AEB6509005090ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				D3F844D32AEB4318005090ED /* Learn By Doing */,
+				D3F844F72AEB6508005090ED /* stickers */,
 				D3F844D22AEB4318005090ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				D3F844D12AEB4318005090ED /* Learn By Doing.app */,
+				D3F844F62AEB6508005090ED /* stickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +95,17 @@
 		D3F844D32AEB4318005090ED /* Learn By Doing */ = {
 			isa = PBXGroup;
 			children = (
+				D3F844F02AEB6033005090ED /* sound-chime.mp3 */,
+				D3F844ED2AEB5CCF005090ED /* Model */,
+				D3F844E52AEB5185005090ED /* CardView.swift */,
+				D3F844E42AEB4924005090ED /* Learn-By-Doing-Info.plist */,
 				D3F844D42AEB4318005090ED /* Learn_By_DoingApp.swift */,
 				D3F844D62AEB4318005090ED /* ContentView.swift */,
 				D3F844D82AEB4319005090ED /* Assets.xcassets */,
 				D3F844DA2AEB4319005090ED /* Preview Content */,
+				D3F844E22AEB45CA005090ED /* LaunchScreen.storyboard */,
+				D3F844EE2AEB5CE6005090ED /* CardData.swift */,
+				D3F844F22AEB6051005090ED /* PlaySound.swift */,
 			);
 			path = "Learn By Doing";
 			sourceTree = "<group>";
@@ -67,6 +118,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D3F844ED2AEB5CCF005090ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3F844EB2AEB5C16005090ED /* CardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3F844F72AEB6508005090ED /* stickers */ = {
+			isa = PBXGroup;
+			children = (
+				D3F844F82AEB6509005090ED /* Stickers.xcassets */,
+				D3F844FA2AEB6509005090ED /* Info.plist */,
+			);
+			path = stickers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +145,32 @@
 				D3F844CD2AEB4318005090ED /* Sources */,
 				D3F844CE2AEB4318005090ED /* Frameworks */,
 				D3F844CF2AEB4318005090ED /* Resources */,
+				D3F845012AEB6509005090ED /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D3F844FC2AEB6509005090ED /* PBXTargetDependency */,
 			);
 			name = "Learn By Doing";
 			productName = "Learn By Doing";
 			productReference = D3F844D12AEB4318005090ED /* Learn By Doing.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D3F844F52AEB6508005090ED /* stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F844FE2AEB6509005090ED /* Build configuration list for PBXNativeTarget "stickers" */;
+			buildPhases = (
+				D3F844F42AEB6508005090ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stickers;
+			productName = stickers;
+			productReference = D3F844F62AEB6508005090ED /* stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +183,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					D3F844D02AEB4318005090ED = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D3F844F52AEB6508005090ED = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
@@ -116,6 +204,7 @@
 			projectRoot = "";
 			targets = (
 				D3F844D02AEB4318005090ED /* Learn By Doing */,
+				D3F844F52AEB6508005090ED /* stickers */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +214,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F844E32AEB45CA005090ED /* LaunchScreen.storyboard in Resources */,
+				D3F844F12AEB6033005090ED /* sound-chime.mp3 in Resources */,
 				D3F844DC2AEB4319005090ED /* Preview Assets.xcassets in Resources */,
 				D3F844D92AEB4319005090ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F844F42AEB6508005090ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F844F92AEB6509005090ED /* Stickers.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +236,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F844EF2AEB5CE6005090ED /* CardData.swift in Sources */,
+				D3F844F32AEB6051005090ED /* PlaySound.swift in Sources */,
 				D3F844D72AEB4318005090ED /* ContentView.swift in Sources */,
+				D3F844EC2AEB5C16005090ED /* CardModel.swift in Sources */,
+				D3F844E62AEB5185005090ED /* CardView.swift in Sources */,
 				D3F844D52AEB4318005090ED /* Learn_By_DoingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3F844FC2AEB6509005090ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3F844F52AEB6508005090ED /* stickers */;
+			targetProxy = D3F844FB2AEB6509005090ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D3F844DD2AEB4319005090ED /* Debug */ = {
@@ -269,17 +380,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Learn By Doing/Preview Content\"";
 				DEVELOPMENT_TEAM = K8FKWBYV9S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Learn-By-Doing-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,17 +412,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Learn By Doing/Preview Content\"";
 				DEVELOPMENT_TEAM = K8FKWBYV9S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Learn-By-Doing-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,6 +435,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3F844FF2AEB6509005090ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8FKWBYV9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = stickers/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "frederick.Learn-By-Doing.stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3F845002AEB6509005090ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8FKWBYV9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = stickers/Info.plist;
+				INFOPLIST_KEY_NSStickerSharingLevel = OS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "frederick.Learn-By-Doing.stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -339,6 +494,15 @@
 			buildConfigurations = (
 				D3F844E02AEB4319005090ED /* Debug */,
 				D3F844E12AEB4319005090ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F844FE2AEB6509005090ED /* Build configuration list for PBXNativeTarget "stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F844FF2AEB6509005090ED /* Debug */,
+				D3F845002AEB6509005090ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
